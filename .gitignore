@@ -1,0 +1,32 @@
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+dist/
+.next/cache/
+
+# Build logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment secrets ---
+.env
+.env.*
+!.env.example
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.sample.json
+
+# --- Testing / coverage (if you add later) ---
+coverage/
+*.coverage
+*.lcov
+
+# --- Supabase local state ---
+.supabase/

@@ -1,0 +1,9 @@
+# Normalize to LF in repo and working copies
+*           text=auto eol=lf
+
+# Windows-native scripts keep CRLF
+*.bat       text eol=crlf
+*.ps1       text eol=crlf
+
+# Unix scripts must be LF
+*.sh        text eol=lf
